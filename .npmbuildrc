@@ -1,0 +1,20 @@
+{
+	"translatorTextKey": "",
+	"supportedLocales": [],
+	"liferayDir": "..\\..\\..\\..\\bundles",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\/.*\\.vue$/",
+				"loader": "vue-loader"
+            },
+			{
+				"test": "src\\/.*\\.js$",
+				"use": "babel-loader"
+			}			
+		]
+	}
+}
+
+		
+	

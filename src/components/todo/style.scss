@@ -1,0 +1,46 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 3%;
+  background: white;
+  margin-top: 10px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  // & > div {
+  //   margin-top: 10px;
+  // }
+  &__wrapper {
+    padding: 10px;
+    & > div:not(:first-child) {
+      margin-top: 10px;
+    }
+    &__title {
+      text-align: left;
+      font-weight: bold;
+      font-size: 25px;
+      &--urgent {
+        color: red;
+      }
+      &--high {
+        color: #ffb266;
+      }
+      &--medium {
+        color: #ffff00;
+      }
+      &--low {
+        color: #008000;
+      }
+    }
+    &__content {
+      text-align: left;
+    }
+    &__option {
+      text-align: center;
+      button {
+        border-radius: 5%;
+        margin-left: 5px;
+      }
+    }
+  }
+}

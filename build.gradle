@@ -1,0 +1,17 @@
+node {
+    // don't download a fresh node install, use the one in /build/node/lib
+    //download false
+
+    // use the same node instance for all builds.
+    global true
+}
+
+npmInstall {
+    // use "node" not "npm"
+    command "node"
+}
+
+packageRunBuild {
+    // use "node" not "npm"
+    command "node"
+}

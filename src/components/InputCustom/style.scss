@@ -1,0 +1,13 @@
+.input-custom {
+  label {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  &__input {
+    border: 1px solid #d42646;
+  }
+  &__error {
+    margin-top: 5px;
+    color: red;
+  }
+}

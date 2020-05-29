@@ -1,0 +1,17 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"ie": "11",
+					"chrome": "67"
+				}
+			}			
+		]
+	],
+	"plugins": [
+		["@babel/plugin-transform-runtime", {"regenerator": true}],
+		["@babel/plugin-proposal-class-properties", {"regenerator": true}]
+	]
+}

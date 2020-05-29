@@ -1,0 +1,21 @@
+.nav-bar {
+  ul {
+    display: flex;
+    li:first-child {
+      span:first-child {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+    }
+    li {
+      color: white;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  a {
+    color: white;
+  }
+}

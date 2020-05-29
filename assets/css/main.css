@@ -1,0 +1,15 @@
+html {
+  font-size: 100%;
+}
+
+.heading-nav-bar {
+  min-height: 95px;
+}
+
+.color-red {
+  border: 1px solid #d42646;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
